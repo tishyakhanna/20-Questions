@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question value="Is it a place?">
+	//if it's a place
+	<answer value="yes">
+		<question value="Is it a big city?">
+			<answer value="yes">
+				<question value="Is it in America?">
+					<answer value="yes">
+						<thing>New York</thing>
+					</answer>
+					<answer value="no">
+						<thing>Paris</thing>
+					</answer>
+				</question>
+			</answer>
+			<answer value="no">
+				<question value="Is it in Massachusettes?">
+					<answer value="yes">
+						<thing>South Hadley</thing>
+					</answer>
+					<answer value="no">
+						<question value="Does it have the Taj Mahal?">
+							<answer value="yes">
+								<thing>Agra</thing>
+							</answer>
+							<answer value="no">
+								<thing>Hyderabad</thing>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+	//if it's not a place
+	<answer value="no">
+		<question value="Is it a Band?">
+			//if it's a band
+			<answer value="yes">
+				<question value="Is it a small band?">
+					<answer value="yes">
+						<question value="Is it Indian?">
+							<answer value="yes">
+								<thing>The Local Train</thing>
+							</answer>
+							<answer value="no">
+								<thing>Cage The Elephant</thing>
+							</answer>
+						</question>
+					</answer>
+					<answer value="no">
+						<question value="Did they write Bohemian Rhapsody?">
+							<answer value="yes">
+								<thing>Queen</thing>
+							</answer>
+							<answer value="no">
+								<question value="Did they write Wonderwall?">
+									<answer value="yes">
+										<thing>Oasis</thing>
+									</answer>
+									<answer value="no">
+										<question value="Did they write Hey Jude?">
+											<answer value="yes">
+												<thing>The Beatles</thing>
+											</answer>
+											<answer value="no">
+												<question value="Did they write Comfortably Numb?">
+													<answer value="yes">
+														<thing>Pink Floyd</thing>
+													</answer>
+													<answer value="no">
+														<question value="Did they write Stairway to Heaven?">
+															<answer value="yes">
+																<thing>Led Zepplin</thing>
+															</answer>
+															<answer value="no">
+																<question value="Did they write There Is a Light That Never Goes Out?">
+																	<answer value="yes">
+																		<thing>The Smiths</thing>
+																	</answer>
+																	<answer value="no">
+																		<question value="Did they write Sweet Child 'O Mine?">
+																			<answer value="yes">
+																				<thing>Guns 'n Roses</thing>
+																			</answer>
+																			<answer value="no">
+																				<thing>U2</thing>
+																			</answer>
+																		</question>
+																	</answer>
+																</question>
+															</answer>
+														</question>
+													</answer>
+												</question>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+			<answer value="no">
+				<question value="Is it a duck?">
+					//if it's a duck
+					<answer value="yes">
+						<question value="Is it a very special duck?">
+							<answer value="yes">
+								<thing>Isabel Kadel Garcia</thing>
+							</answer>
+							<answer value="no">
+								<thing>Unspecial Duck</thing>
+							</answer>
+						</question>
+					</answer>
+					<answer value="no">
+						//then it's a dog
+						<thing>Dog</thing>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+</question>
